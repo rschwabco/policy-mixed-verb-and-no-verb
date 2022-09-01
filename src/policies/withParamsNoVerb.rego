@@ -10,7 +10,8 @@ default visible = false
 default enabled = false
 
 allowed {
-	input.role == "web-admin"
+	some x
+	input.user.attributes.properties.roles[x] = "admin"
 }
 
 enabled {

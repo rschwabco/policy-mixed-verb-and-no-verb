@@ -1,20 +1,23 @@
-package policies.hello
+package policies.GET.hello
 
-# default to a "closed" system, 
+# default to a "closed" system,
 # only grant access when explicitly granted
 
 default allowed = false
+
 default visible = false
+
 default enabled = false
 
 allowed {
-    input.role == "web-admin"
+	some x
+	input.user.attributes.properties.roles[x] = "admin"
 }
 
 enabled {
-    visible
+	visible
 }
 
 visible {
-    input.app == "web-console"
+	input.app == "web-console"
 }
