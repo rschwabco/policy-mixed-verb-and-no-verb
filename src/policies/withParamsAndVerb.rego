@@ -11,7 +11,7 @@ default enabled = false
 
 allowed {
 	some x
-	input.user.attributes.properties.roles[x] = "admin"
+	input.user.attributes.roles[x] = "admin"
 }
 
 enabled {
