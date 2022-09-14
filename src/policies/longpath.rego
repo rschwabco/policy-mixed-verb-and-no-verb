@@ -15,7 +15,7 @@ allowed {
 }
 
 allowed {
-	input.resource.__param1 = "foo"
+	input.resource.param1 = "foo"
 }
 
 enabled {
