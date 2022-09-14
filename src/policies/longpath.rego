@@ -1,4 +1,4 @@
-package policies.withParamsNoVerb.__param1.__param2
+package policies.long.path.withParams.__param1
 
 # default to a "closed" system,
 # only grant access when explicitly granted
@@ -16,7 +16,6 @@ allowed {
 
 allowed {
 	input.resource.__param1 = "foo"
-	input.resource.__param2 = "bar"
 }
 
 enabled {

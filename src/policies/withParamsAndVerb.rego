@@ -14,6 +14,11 @@ allowed {
 	input.user.attributes.roles[x] = "admin"
 }
 
+allowed {
+	input.resource.__param1 = "foo"
+	input.resource.__param2 = "bar"
+}
+
 enabled {
 	visible
 }
