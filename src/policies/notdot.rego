@@ -1,0 +1,3 @@
+package nodot
+
+allowed = true
